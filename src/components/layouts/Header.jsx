@@ -5,6 +5,7 @@ import Image from '../Image'
 import Logo from '../../assets/Logo.png'
 import Menu from '../Menu'
 import Button from '../Button'
+import { FaEnvelope } from "react-icons/fa";
 
 
 const Header = () => {
@@ -17,14 +18,14 @@ const Header = () => {
                 </div>
                 <div className="">
                     <Menu className={'flex gap-x-12'}>
-                        <li>HOME</li>
-                        <li>ABOUT</li>
-                        <li>SERVICE</li>
-                        <li>CONTACT</li>
+                        <li className='text-regular text-lg hover:text-primary hover:text-bold duration-300'>HOME</li>
+                        <li className='text-regular text-lg hover:text-primary hover:text-bold duration-300'>ABOUT</li>
+                        <li className='text-regular text-lg hover:text-primary hover:text-bold duration-300'>SERVICE</li>
+                        <li className='text-regular text-lg hover:text-primary hover:text-bold duration-300'>CONTACT</li>
                     </Menu>
                 </div>
                 <div className="">
-                    <Button className={"py-3 px-5 text-white font-bold"} btnText={"Hire Me"}/>
+                    <Button className={" flex items-center py-3 px-5 text-white"} btnText={"Hire Me"} icon2={<FaEnvelope className='text-lg ml-2'/>}/>
                 </div>
             </Flex>
             

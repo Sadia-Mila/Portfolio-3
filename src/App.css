@@ -1,5 +1,13 @@
 @import "tailwindcss";
+body{
+  
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
 @theme {
-  --color-primary: #5E3BEE;
+
+    --color-primary: #5E3BEE;
+    --color-secondary: #333333;
+    --color-three: #121212;
   
 }
